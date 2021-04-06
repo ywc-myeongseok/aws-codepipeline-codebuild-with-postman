@@ -36,7 +36,7 @@
 							"});",
 							"",
 							"pm.test(\"Is response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(800);",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
 							"});",
 							"",
 							"",
@@ -99,7 +99,7 @@
 							"});",
 							"",
 							"pm.test(\"Is response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(800);",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
 							"});"
 						],
 						"type": "text/javascript"
@@ -163,7 +163,7 @@
 							"});",
 							"",
 							"pm.test(\"Is response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(800);",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
 							"});",
 							"",
 							"",
